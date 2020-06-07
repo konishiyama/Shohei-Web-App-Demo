@@ -1,8 +1,8 @@
 ---
 templateKey: index-page
-title: Great coffee with a conscience
+title: 日本の未来は俺に任せろ
 image: /img/home-jumbotron.jpg
-heading: Great coffee with a conscience
+heading: 日本の未来は俺に任せろ
 subheading: Support sustainable farming while enjoying a cup
 mainpitch:
   title: Why Kaldi
