@@ -2,49 +2,28 @@
 templateKey: index-page
 title: 日本の未来は俺に任せろ
 image: /img/home-jumbotron.jpg
-heading: 日本の未来は俺に任せろ
+heading: 山口翔平の志
 subheading: Support sustainable farming while enjoying a cup
 mainpitch:
-  title: Why Kaldi
+  title: プロフィール
   description: >
-    Kaldi is the coffee store for everyone who believes that great coffee
-    shouldn't just taste good, it should do good too. We source all of our beans
-    directly from small scale sustainable farmers and make sure part of the
-    profits are reinvested in their communities.
+    山口県出身2011年、自民党青年局長に就任。2013年に内閣府大臣政務官 兼 復興大臣政務官に就任し、東日本大震災からの復興に全力を尽くす。2015年、自民党農林部会長として農政改革に取り組む。2018年10月、自民党厚生労働部会長として人生100年時代に向けた新たな社会保障の実現に取り組む。
 description: >-
-  Kaldi is the ultimate spot for coffee lovers who want to learn about their
-  java’s origin and support the farmers that grew it. We take coffee production,
-  roasting and brewing seriously and we’re glad to pass that knowledge to
-  anyone.
+  なりたい自分についてのビジョンを創造するのさ。そして、それがまるですでに現実であるかのように 振る舞うんだ。限界を決めるのは心だ。心が何かをやれると思い描き自分がそれを100％信じることができればそれは必ず実現する。
 intro:
   blurbs:
     - image: /img/coffee.png
       text: >
-        We sell green and roasted coffee beans that are sourced directly from
-        independent farmers and farm cooperatives. We’re proud to offer a
-        variety of coffee beans grown with great care for the environment and
-        local communities. Check our post or contact us directly for current
-        availability.
+        なりたい自分についてのビジョンを創造するのさ。そして、それがまるですでに現実であるかのように 振る舞うんだ。限界を決めるのは心だ。心が何かをやれると思い描き自分がそれを100％信じることができればそれは必ず実現する。
     - image: /img/coffee-gear.png
       text: >
-        We offer a small, but carefully curated selection of brewing gear and
-        tools for every taste and experience level. No matter if you roast your
-        own beans or just bought your first french press, you’ll find a gadget
-        to fall in love with in our shop.
+        どんな政治体制でも歴史的な基盤があって、徐々に形成されたものであるので、その点では日本の天皇制もまったく同じだと思います。ですから民主主義が悪いとか、天皇制がいいとか悪いとかいう問題じゃなくて、その国その国の歴史的基盤に立った政治体制ができていくということは当然だと思います。
     - image: /img/tutorials.png
       text: >
-        Love a great cup of coffee, but never knew how to make one? Bought a
-        fancy new Chemex but have no clue how to use it? Don't worry, we’re here
-        to help. You can schedule a custom 1-on-1 consultation with our baristas
-        to learn anything you want to know about coffee roasting and brewing.
-        Email us or call the store for details.
+        「じゃあどうして永沢さんは外務省に入るんですか？」「いろいろと理由はあるさ」と永沢さんは言った。「外地勤務が好きだとか、いろいろな。でもいちばんの理由は自分の能力をためしてみたいってことだよな。どうせためすんならいちばんでかい入れものの中でためしてみたいのさ。つまりは国家だよ。このばかでかい官僚機構の中でどこまで自分が上にのぼれるか、どこまで自分が力を持てるかそういうのを試してみたいんだよ、わかるか？」
     - image: /img/meeting-space.png
       text: >
-        We believe that good coffee has the power to bring people together.
-        That’s why we decided to turn a corner of our shop into a cozy meeting
-        space where you can hang out with fellow coffee lovers and learn about
-        coffee making techniques. All of the artwork on display there is for
-        sale. The full price you pay goes to the artist.
+        Ask not what your country can do for you; ask what you can do for your country.
   heading: What we offer
   description: >
     Kaldi is the ultimate spot for coffee lovers who want to learn about their

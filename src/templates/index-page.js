@@ -34,10 +34,10 @@ export const IndexPageTemplate = ({
           marginBottom:'10%',
         }}
       >
-        <p>
-          日本の未来は
+        <p className="mini-index">
+          栃木県日光市選出代議士(元外交官)
         </p>
-        <p>俺に任せろ！！</p>
+        <p>山口翔平</p>
       </div>
     </div>
     
@@ -52,33 +52,33 @@ export const IndexPageTemplate = ({
                     <h1 className="title">{mainpitch.title}</h1>
                   </div>
                   <div className="tile">
-                    <h3 className="subtitle">{mainpitch.description}</h3>
+                    <h4 className="subtitle">{mainpitch.description}</h4>
                   </div>
                 </div>
                 <div className="columns">
-                  <div className="column is-12">
-                    <h3 className="has-text-weight-semibold is-size-2">
+                  {/* <div className="column is-12"> */}
+                    {/* <h1 className="has-text-weight-semibold is-size-2">
                       {heading}
-                    </h3>
-                    <p>{description}</p>
-                  </div>
+                    </h1> */}
+                    {/* <p>{description}</p> */}
+                  {/* </div> */}
                 </div>
                 <Features gridItems={intro.blurbs} />
                 <div className="columns">
                   <div className="column is-12 has-text-centered">
                     <Link className="btn" to="/products">
-                      See all products
+                      適宜適宜
                     </Link>
                   </div>
                 </div>
                 <div className="column is-12">
                   <h3 className="has-text-weight-semibold is-size-2">
-                    Latest stories
+                    最新の記事
                   </h3>
                   <BlogRoll />
                   <div className="column is-12 has-text-centered">
                     <Link className="btn" to="/blog">
-                      Read more
+                      記事を読む
                     </Link>
                   </div>
                 </div>

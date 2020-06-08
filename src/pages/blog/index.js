@@ -13,17 +13,24 @@ export default class BlogIndexPage extends React.Component {
             backgroundImage: `url('/img/progile-pic.jpg')`,
           }}
         >
-          <h1
-            className="has-text-weight-bold is-size-1"
-            style={{
-              boxShadow: '0.5rem 0 0 #f40, -0.5rem 0 0 #f40',
-              // backgroundColor: '#f40',
-              color: 'red',
-              padding: '1rem',
-            }}
-          >
-            Latest Stories
-          </h1>
+          <div
+          style={{
+            color:'white',
+            fontFamily:'',
+            fontSize:'45px',
+            fontWeight:'bold',
+            bottom:'5%',
+            marginRight:'auto',
+            marginLeft:'0%',
+            marginBottom:'0%',
+            marginTop:'45%',
+          }}
+        >
+          <p>
+            しょうへいの
+          </p>
+          <p>ブログぺーじ</p>
+        </div>
         </div>
         <section className="section">
           <div className="container">
