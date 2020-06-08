@@ -8,7 +8,32 @@ export const AboutPageTemplate = ({ title, content, contentComponent }) => {
   const PageContent = contentComponent || Content
 
   return (
-    <section className="section section--gradient">
+    <div>
+      <div
+        className="full-width-image margin-top-0"
+        style={{
+          backgroundImage: `url('/img/About_prof.jpg')`,
+        }}
+      >
+        <div
+          style={{
+            color:'white',
+            fontFamily:'',
+            fontSize:'45px',
+            fontWeight:'bold',
+            bottom:'10%',
+            marginRight:'auto',
+            marginLeft:'5%',
+            marginBottom:'10%',
+          }}
+        >
+          <p>
+            日本の未来は
+          </p>
+          <p>俺に任せろ！！</p>
+        </div>
+      </div>
+      <section className="section section--gradient">
       <div className="container">
         <div className="columns">
           <div className="column is-10 is-offset-1">
@@ -22,6 +47,7 @@ export const AboutPageTemplate = ({ title, content, contentComponent }) => {
         </div>
       </div>
     </section>
+    </div>
   )
 }
 
