@@ -6,6 +6,8 @@ import Layout from '../components/Layout'
 import Features from '../components/Features'
 import BlogRoll from '../components/BlogRoll'
 
+
+
 export const IndexPageTemplate = ({
   image,
   title,
@@ -14,6 +16,7 @@ export const IndexPageTemplate = ({
   mainpitch,
   description,
   intro,
+  
 }) => (
   <div>
     <div
@@ -68,6 +71,7 @@ export const IndexPageTemplate = ({
                   <div className="column is-12 has-text-centered">
                     <Link className="btn" to="/products">
                       適宜適宜
+                      {/* <FontAwesomeIcon icon={faCoffee} /> */}
                     </Link>
                   </div>
                 </div>
@@ -104,7 +108,7 @@ IndexPageTemplate.propTypes = {
 }
 
 const IndexPage = ({ data }) => {
-  const { frontmatter } = data.markdownRemark
+const { frontmatter } = data.markdownRemark
 
   return (
     <Layout>

@@ -3,7 +3,7 @@ import { Link } from 'gatsby'
 import facebook from '../img/social/facebook.svg'
 import instagram from '../img/social/instagram.svg'
 import twitter from '../img/social/twitter.svg'
-import vimeo from '../img/social/vimeo.svg'
+// import vimeo from '../img/social/vimeo.svg'
 
 const Footer = class extends React.Component {
   render() {
@@ -49,7 +49,7 @@ const Footer = class extends React.Component {
                         target="_blank"
                         rel="noopener noreferrer"
                       >
-                        管理者ログイン
+                        管理者ページ
                       </a>
                     </li>
                   </ul>

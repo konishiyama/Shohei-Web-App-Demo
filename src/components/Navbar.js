@@ -1,6 +1,12 @@
 import React from 'react'
 import { Link } from 'gatsby'
 
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import {  faSignInAlt } from '@fortawesome/free-solid-svg-icons'
+import { library } from '@fortawesome/fontawesome-svg-core'
+import { fab } from '@fortawesome/free-brands-svg-icons'
+
+
 const Navbar = class extends React.Component {
   constructor(props) {
     super(props)
@@ -31,6 +37,7 @@ const Navbar = class extends React.Component {
   }
 
   render() {
+    library.add(fab)
     return (
       <nav
         className="navbar is-transparent"
@@ -58,8 +65,11 @@ const Navbar = class extends React.Component {
               className="navbar-login" 
               title="Login"
               >
+
                 <p>
-                Login
+                <FontAwesomeIcon icon={faSignInAlt} />
+                 <span> </span>
+                 <span>ログイン</span>
                 </p>
               </Link>
             </div>
