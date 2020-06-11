@@ -207,7 +207,6 @@ body, button, input, textarea
  margin-top: 30px
  line-height: 52px
 
-
 .navbar-logincontainer
  text-align: right
  height: 52px
@@ -221,3 +220,20 @@ body, button, input, textarea
 
 .navbar-burger
  margin-left: 0px
+
+.navbar-menu 
+    flex-grow: none
+    flex-shrink: 
+
+@media (min-width: 1024px) 
+  .content h1
+    color: red !important 
+  .navbar-start
+    margin-left: auto !important
+    margin-right: 0 !important
+  .navbar-logincontainer
+    display: none
+
+@media (max-width: 1023px) 
+  .navbar-logincontainer-in-menu
+    display: none 

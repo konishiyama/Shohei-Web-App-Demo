@@ -104,6 +104,25 @@ const Navbar = class extends React.Component {
               <Link className="navbar-item" to="/contact/examples">
                 適宜
               </Link>
+              <div 
+            className="navbar-logincontainer-in-menu"
+            style=
+                {{ 
+                  width: '90px'
+                  }}
+            >
+              <Link 
+              to="" 
+              className="navbar-login" 
+              title="Login"
+              >
+                <p>
+                <FontAwesomeIcon icon={faSignInAlt} />
+                 <span> </span>
+                 <span>ログイン</span>
+                </p>
+              </Link>
+            </div>
             </div>
           </div>
         </div>
