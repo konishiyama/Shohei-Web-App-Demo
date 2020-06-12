@@ -225,6 +225,13 @@ body, button, input, textarea
     flex-grow: none
     flex-shrink: 
 
+.full-width-image
+ height: 630px
+
+@media (min-width: 1025px) 
+  .full-width-image
+    height: 1350px
+
 @media (min-width: 1024px) 
   .content h1
     color: red !important 
@@ -233,7 +240,11 @@ body, button, input, textarea
     margin-right: 0 !important
   .navbar-logincontainer
     display: none
+  .full-width-image
+    height: 850px
 
 @media (max-width: 1023px) 
   .navbar-logincontainer-in-menu
     display: none 
+  .full-width-image
+    height: 650px
