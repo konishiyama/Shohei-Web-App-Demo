@@ -19,6 +19,9 @@ class BlogRoll extends React.Component {
                         {post.frontmatter.date}
                   </span>
                   {post.frontmatter.featuredimage ? (
+                    <Link
+                    to={post.fields.slug}
+                  >
                     <div className="featured-thumbnail">
                       <PreviewCompatibleImage
                         imageInfo={{
@@ -27,6 +30,7 @@ class BlogRoll extends React.Component {
                         }}
                       />
                     </div>
+                    </Link>
                   ) : null}
                   <p className="post-meta"
                      style={{

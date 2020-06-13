@@ -61,7 +61,7 @@ const Navbar = class extends React.Component {
                   }}
             >
               <Link 
-              to="" 
+              to="/login-page" 
               className="navbar-login" 
               title="Login"
               >
@@ -112,7 +112,7 @@ const Navbar = class extends React.Component {
                   }}
             >
               <Link 
-              to="" 
+              to="/login-page" 
               className="navbar-login" 
               title="Login"
               >
