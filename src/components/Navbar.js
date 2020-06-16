@@ -67,8 +67,8 @@ const Navbar = class extends React.Component {
               >
 
                 <p>
-                <FontAwesomeIcon icon={faSignInAlt} />
-                 <span> </span>
+                {/* <FontAwesomeIcon icon={faSignInAlt} />
+                 <span> </span> */}
                  <span>ログイン</span>
                 </p>
               </Link>
@@ -117,8 +117,8 @@ const Navbar = class extends React.Component {
               title="Login"
               >
                 <p>
-                <FontAwesomeIcon icon={faSignInAlt} />
-                 <span> </span>
+                {/* <FontAwesomeIcon icon={faSignInAlt} />
+                 <span> </span> */}
                  <span>ログイン</span>
                 </p>
               </Link>

@@ -5,6 +5,8 @@ module.exports = {
       '栃木県日光市選出、衆議院議員山口翔平の、公式ウェブサイトです。',
   },
   plugins: [
+    `gatsby-plugin-twitter`,
+    'gatsby-plugin-instagram-embed',
     'gatsby-plugin-react-helmet',
     'gatsby-plugin-sass',
     {

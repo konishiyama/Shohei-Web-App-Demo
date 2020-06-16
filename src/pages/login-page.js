@@ -73,7 +73,7 @@ export default class Login extends React.Component {
                 </div>
                 <div className="field">
                   <label className="label" htmlFor={'message'}>
-                    氏名
+                    Password
                   </label>
                   <div className="control">
                     <input
@@ -82,6 +82,7 @@ export default class Login extends React.Component {
                       onChange={this.handleChange}
                       id={'name'}
                       required={true}
+                      type="password"
                     />
                   </div>
                 </div>

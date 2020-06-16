@@ -91,6 +91,35 @@ export const IndexPageTemplate = ({
           </div>
         </div>
       </div>
+      <h3 className="has-text-weight-semibold is-size-2">
+        Twitter
+      </h3>
+      <br>
+      </br>
+      <a class="twitter-timeline" data-lang="ja" data-width="360" data-height="410" href="https://twitter.com/GekidanHitori?ref_src=twsrc%5Etfw">Tweets by GekidanHitori</a> 
+      <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+      <br>
+      </br>
+      <br>
+      </br>
+      <h3 className="has-text-weight-semibold is-size-2">
+        Instagram
+      </h3>
+      <br>
+      </br>
+      <a 
+      href="https://www.instagram.com/dlwlrma/?hl=ja"
+      target= "_blank">
+        <img src="/img/Instagram.png"></img>
+      </a>
+      <p>
+        <a 
+        href="https://www.instagram.com/dlwlrma/?hl=ja"
+        target= "_blank"
+        >もっと見る</a>
+      </p>
+      <br>
+      </br>
     </section>
   </div>
 )
