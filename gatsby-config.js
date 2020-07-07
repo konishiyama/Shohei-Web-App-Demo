@@ -5,10 +5,41 @@ module.exports = {
       '栃木県日光市選出、衆議院議員山口翔平の、公式ウェブサイトです。',
   },
   plugins: [
+    {
+      resolve: 'gatsby-firesource',
+      options: {
+        credential: require('./firebase.json'),
+        types: [
+          {
+            type: 'Test',
+            collection: 'test',
+            map: doc => ({
+              name: doc.name,
+              title: doc.title,
+            }),
+          }
+        ]
+      },
+    },
     `gatsby-plugin-twitter`,
     'gatsby-plugin-instagram-embed',
     'gatsby-plugin-react-helmet',
     'gatsby-plugin-sass',
+    // {
+    //   resolve: "gatsby-plugin-firebase",
+    //   options: {
+    //     credentials: {
+    //       apiKey: "AIzaSyBA60tX12RMmlNWE2lRAZNDL18fmtzVvgs",
+    //       authDomain: "shohei-yamaguchi.firebaseapp.com",
+    //       databaseURL: "https://shohei-yamaguchi.firebaseio.com",
+    //       projectId: "shohei-yamaguchi",
+    //       storageBucket: "shohei-yamaguchi.appspot.com",
+    //       messagingSenderId: "750379227438",
+    //       appId: "1:750379227438:web:9813b5d250fa2b94b3c2bf",
+    //       measurementId: "G-Y1BXQT00XJ"
+    //     }
+    //   }
+    // },
     {
       // keep as first gatsby-source-filesystem plugin for gatsby image support
       resolve: 'gatsby-source-filesystem',

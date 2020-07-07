@@ -1,0 +1,12 @@
+{
+  "type": "service_account",
+  "project_id": "shohei-yamaguchi-on-netlify",
+  "private_key_id": "749ba4d62ba57e4ec26a501f46f240628beac1c3",
+  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvgIBADANBgkqhkiG9w0BAQEFAASCBKgwggSkAgEAAoIBAQDaXbDAKnnplbX5\n3Lf5zVXNQFUDEXvm+byyi6hOixSzQSxNVHZxDeWzvdb2EcAatqX8L5oilgqrFcS/\nDVQZL91SBY+5X4IJD22xzAZQLPDdGvaIn8uMQat/3gwaM5P8LXMFz9ZE/80NFqTR\nwn7MP0WJFIFkMRs6a8G9VxQcyhGuZiLEjgTHfwlYcW7TOSWxj7YBiIldOJ6ghnRv\nCbVS6s0S6OiURDj30XID9feStQQ1OfJBosniiZcaVgpseHLZPxSxMrtnyHyucbMh\nWftfFo5NRIRVX50YO0C5CAHcnuoNjpH+C/BuYmdh8wXXoCzKIzSgo9q7HBNYf+Yp\n8hIDbJRNAgMBAAECggEAFj7F0HMYo6TJEAuIgR3bks2Ym3e+1o3fHOqV78JtY8F3\nlj0iKmw5rUY2otoLZu1FGtwX6KlpAXrLOzyhXPDVAWkS9isg9R6plHDuEmGG/A9Q\nyXmgjnOWLrAxLW4kXOPzEXGAfjD3nlC4jlcw/EpUdsgsUkefuCOIGMDJNLxFHC3t\nJMwm8Ro1MUWWfiRXlsZb1etS1J5kBW1Cb7Nf5240xsE2qCqESVmlDbFz/KZXtN/r\n0b1rKyQCwLmlD62Q+T+GrgF59VbOcYDgBdPkFJOp+o7HyXQDbPUnXoFo3uRIJ3/5\nse54Lu4fRP2fgOf8qRxcm/DK/kB6sonOA8DtgjpORQKBgQD/r8rf2A4zQ1KCKZXE\nOnhOXbwhftNWNOC/rXlbMuV39eqgE/xoKbRvuSTn+9BtiE1+LR0Q+DEDJ8o4a8BC\nnz9PdEgMOzMhrPVH+DJge4PlGAU5VuIzg0g6i9szU8EUifbY2/YwRjTfHaXKMVN/\nckBzyk4uW6vInmpR3DFH6odNKwKBgQDaojDOdXyvp+LSfx7fb1KCLSEUa7Y6nFjB\nDawGu8WE+zmcnTlRH5XD+4BBhc3jR33NoJkdhb+9wMKIfztgwIsQzqHbWp5WH8qb\ntBEmyixS8z19heeHYGUwPZUGdGxR7+xklloGWafuyFnkrU9+LQqalWBpjLFGWt5h\naX23DAGYZwKBgQCoAKQ3DMnX2SZ/rD9iHmEqbODOyXynqjr690tEJ18rwYQXBsrU\nzoJm3qpnW8iKEAOLIq10lv/taNmw1OwRWn3JAUjN8KAaQoEwdt7zEnWJtIzKLlKX\nMm3lOjwfr6qwii6OM4nCEn9vExX6kwqgNTwwWP+h6k4nlh+aBirDbFDW3QKBgQCf\nudRcURr5nXapf/OHGuY1clDzgUmNgkGZMKrX9IB2Ca/qSjbgnGmm12u48s8a11UC\nT+zs05TkRRoZ7JHtul0et0cqYQbCNtGndSL+qr89DrWCqbwfe/4RAzyHjbDBH74d\nMnasov18BmUeGruzm6Zejvjzw7STiLlkg1Qz0ZKsywKBgG3ywV6Y+N4ESkqVkc2M\nqwfXWeH+rrDHFqM1GFbCEb7zjLRJT9+cy8NpCgCOJxC5+RZVXLMYVvpLe3ryQuce\nlbwCeTthKv2NQgX3U4yU27sfOXr2lCqjWnG64kEIqHFqAa8nTdzn03aCPmADOsxc\nyrV29nWGiClg4FQaVL1w3TBa\n-----END PRIVATE KEY-----\n",
+  "client_email": "firebase-adminsdk-de5vp@shohei-yamaguchi-on-netlify.iam.gserviceaccount.com",
+  "client_id": "106246875941519066504",
+  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+  "token_uri": "https://oauth2.googleapis.com/token",
+  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/firebase-adminsdk-de5vp%40shohei-yamaguchi-on-netlify.iam.gserviceaccount.com"
+}

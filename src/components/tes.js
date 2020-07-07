@@ -1,23 +1,16 @@
-import React, {useContext, useState, useImperativeHandle} from 'react'
-import { Link, navigate } from 'gatsby'
+import React, {useContext} from 'react'
+import { Link } from 'gatsby'
 
-// import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-// import {  faSignInAlt } from '@fortawesome/free-solid-svg-icons'
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import {  faSignInAlt } from '@fortawesome/free-solid-svg-icons'
 import { library } from '@fortawesome/fontawesome-svg-core'
 import { fab } from '@fortawesome/free-brands-svg-icons'
 import {FirebaseContext} from './Firebase'
-// import styled, { ThemeConsumer } from 'styled-components';
 
 
 const Navbar = () => {
- const {firebase, user} = useContext(FirebaseContext);
- console.log(firebase, user);
- const [active, setActive] = useState(true);
+ const [active, setActive] = useState(false);
  const [navBarActiveClass, setNavBarActiveClass] = useState('');
- 
- function handleLogoutClick(){
-    firebase.logout().then(() => navigate('/login-page'))
- }
 
  function toggleHamburger() {
     setActive(!active);
@@ -51,33 +44,18 @@ const Navbar = () => {
                   width: '120px'
                   }}
             >
-              {!!user && 
-               <Link 
-               to="/" 
-               className="navbar-login" 
-               title="Logout"
-               onClick={handleLogoutClick}
-               >
+              <Link 
+              to="/login-page" 
+              className="navbar-login" 
+              title="Login"
+              >
 
-                 <p>
-                 <span>Logout</span>
-                 </p>
-               </Link>
-              }
-              {!user &&
-                <Link 
-                to="/login-page" 
-                className="navbar-login" 
-                title="Login"
-                >
-
-                  <p>
-                  {/* <FontAwesomeIcon icon={faSignInAlt} />
-                  <span> </span> */}
-                  <span>Login</span>
-                  </p>
-                </Link>
-              }
+                <p>
+                {/* <FontAwesomeIcon icon={faSignInAlt} />
+                 <span> </span> */}
+                 <span>Login</span>
+                </p>
+              </Link>
             </div>
             {/* Hamburger menu */}
             <div
@@ -131,6 +109,12 @@ const Navbar = () => {
             </div>
             </div>
           </div>
+          <FirebaseContext.Consumer>
+            {props => {
+              console.log(props);
+              return <div/>
+            }}
+          </FirebaseContext.Consumer>
         </div>
       </nav>
     )

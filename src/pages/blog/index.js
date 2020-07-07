@@ -2,6 +2,25 @@ import React from 'react'
 
 import Layout from '../../components/Layout'
 import BlogRoll from '../../components/BlogRoll'
+import {graphql} from 'gatsby'
+
+export const query = graphql`
+{
+  allTest {
+    edges {
+      node {
+        name
+        id
+        title
+      }
+      previous {
+        id
+      }
+    }
+  }
+}
+`;
+
 
 export default class BlogIndexPage extends React.Component {
   render() {
@@ -26,9 +45,12 @@ export default class BlogIndexPage extends React.Component {
             marginTop:'45%',
           }}
         >
-          <p>
-            しょうへいの
-          </p>
+           {this.props.data.allTest.edges.map(edge => (
+             <p key={edge.node.id}>
+               {edge.node.name}の
+             </p>
+           )
+           )}
           <p>ブログぺーじ</p>
         </div>
         </div>

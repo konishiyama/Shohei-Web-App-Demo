@@ -8,9 +8,11 @@
     "@fortawesome/free-brands-svg-icons": "^5.13.0",
     "@fortawesome/free-solid-svg-icons": "^5.13.0",
     "@fortawesome/react-fontawesome": "^0.1.10",
+    "axios": "^0.19.2",
     "bulma": "^0.8.0",
-    "firebase": "^7.15.1",
+    "firebase": "^7.15.5",
     "gatsby": "^2.20.35",
+    "gatsby-firesource": "^2.0.3",
     "gatsby-image": "^2.3.5",
     "gatsby-plugin-instagram-embed": "^2.0.1",
     "gatsby-plugin-manifest": "^2.4.11",
@@ -37,6 +39,7 @@
     "react": "^16.8.4",
     "react-dom": "^16.8.4",
     "react-helmet": "^6.0.0",
+    "styled-components": "^5.1.1",
     "uuid": "^7.0.0"
   },
   "keywords": [
