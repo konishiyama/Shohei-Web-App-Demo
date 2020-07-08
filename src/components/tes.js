@@ -45,7 +45,7 @@ const Navbar = () => {
                   }}
             >
               <Link 
-              to="/login-page" 
+              to="/login" 
               className="navbar-login" 
               title="Login"
               >
@@ -96,7 +96,7 @@ const Navbar = () => {
                   }}
             >
               <Link 
-              to="/login-page" 
+              to="/login" 
               className="navbar-login" 
               title="Login"
               >

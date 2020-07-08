@@ -16,7 +16,7 @@ const Navbar = () => {
  const [navBarActiveClass, setNavBarActiveClass] = useState('');
  
  function handleLogoutClick(){
-    firebase.logout().then(() => navigate('/login-page'))
+    firebase.logout().then(() => navigate('/login'))
  }
 
  function toggleHamburger() {
@@ -66,7 +66,7 @@ const Navbar = () => {
               }
               {!user &&
                 <Link 
-                to="/login-page" 
+                to="/login" 
                 className="navbar-login" 
                 title="Login"
                 >
@@ -118,7 +118,7 @@ const Navbar = () => {
                   }}
             >
               <Link 
-              to="/login-page" 
+              to="/login" 
               className="navbar-login" 
               title="Login"
               >
